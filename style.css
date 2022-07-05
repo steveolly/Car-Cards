@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    margin-top: 40px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card P{
+    padding: 10px;
+}
+.card h2{
+    padding: 10px;
+}
+.car-image{
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.car-1{
+    background-image: url(./image/download\ \(3\).jpg);
+}
+
+.car-2{
+    background-image: url(./image/download\ \(4\).jpg);
+}
+
+.car-3{
+    background-image: url(./image/download\ \(5\).jpg);
+}
+.card a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    padding: 15px 20px;
+}
+.card:hover {
+    background-color: rgba(39, 36, 36, 50%);
+    color: white;
+}
+.card .one a:hover {
+    background-color: rgb(38, 38, 180);
+}
+.card .two a:hover {
+    background-color: rgb(46, 42, 42);
+}
+.card .three a:hover {
+    background-color: rgb(209, 209, 40);
+}
